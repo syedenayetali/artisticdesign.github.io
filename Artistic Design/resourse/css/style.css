@@ -1,0 +1,433 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.60),rgba(255, 255, 255, 0.60)), url("../image/body-background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-brand img {
+    position: absolute;
+    top: -8%;
+    left: 5%;
+    width: 150px;
+    height: auto;
+}
+
+.nav-ul {
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.nav-ul li{
+    margin-right: 60px;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.nav-ul a:hover {
+    color: #ff9100;
+    font-size: 20px;
+    transition: color 1s;
+    transition: font-size 1s;
+}
+
+
+
+/* welcome-screen */
+
+.welcome-screen {
+    background-image: linear-gradient(rgba(50, 32, 51, 0.788),rgba(60, 32, 61, 0.788)), url("../../resourse/image/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.welcome-screen h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.welcome-screen h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.welcome-screen div {
+    float: left;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+
+.welcome-screen a{
+    text-decoration: none;
+    background-color: #ff9100  ;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px 50px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.welcome-screen a:hover {
+    background-color: #fff  ;
+    color: #ff9100;
+}
+
+
+
+/* What we do */
+
+.do{
+    color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100hv;
+    background-attachment: fixed;
+}
+
+.do h1{
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(48, 19, 19);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.do .col-sm-4 {
+    padding: 50px;
+}
+
+.do a {
+    text-decoration: none;
+}
+
+.do .col-sm-4 {
+    transform: scale(0.9);
+}
+
+.do .col-sm-4:hover{
+    /* background-color: #3f2400; */
+    background-color: #04003f;
+    padding: 40px;
+    font-size: 18px;
+    /* color: #fff; */
+    color: rgb(251, 255, 0);
+    transition: color 0.5s;
+    transition: background-color 0.5s;  
+}
+
+.do span {
+    padding-bottom: 20px;;
+}
+
+.do h4 {
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+
+
+
+/* Gallery and Form */
+.gnf {
+    padding: 40px 0;
+}
+
+.gnf img {
+    width: 100%;
+    opacity: 50%;
+    transform: scale(1);
+    overflow: hidden; 
+}
+
+.gnf img:hover{
+    opacity: 100%;
+    transform: scale(1.05);
+    transition: opacity 1s;
+    transition: transform 1s;
+}
+
+.gnf .col-sm-4{
+    padding: 0 0 0 0 ;
+    background-color: rgb(255, 0, 0);
+}
+
+.gnf .img{
+    padding: 0 0 0 0 ;
+    background-color: rgb(3, 3, 3);
+}
+
+.gnf form {
+    padding: 40px 60px;
+    color: #fff;
+}
+
+.gnf h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.gnf input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.gnf .col-sm-2 select{
+    padding: 4px 0;
+}
+
+.gnf a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #ff9100;
+    padding: 5px 40px;
+    border-radius: 20px;
+
+}
+
+.gnf a:hover {
+    font-weight: 900;
+}
+
+#submit {
+    background-color: #000b6d;
+    color: #fff;
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+/* Student Voice */
+
+.ss {
+    margin: 30px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.116),rgba(255, 0, 0, 0.600)), url("../../resourse/image/background1.jpg");
+    /* background-image: url("../../resourse/image/board.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.ss h1{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: 700;
+}
+
+.ss h4 {
+    font-weight: 700;
+    border-bottom: rgb(180, 178, 178) 2px solid;
+    padding-bottom: 20px;
+}
+
+.ss img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.col-sm-3 {
+    border-radius: 7px;
+    padding: 40px 60px;
+}
+
+.col-sm-3:hover {
+    border-radius: 7px;
+    padding: 20px 30px;
+    background-color: #000;
+    color: #fff ;
+}
+
+
+
+/* Student Video */
+
+.sv{
+    background-color: rgb(204, 204, 204);
+    padding: 60px 40px;
+}
+
+.sv iframe {
+    padding: 20px 20px;
+}
+
+.sv h1{
+    text-align: center;
+    color: rgb(48, 19, 19);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+
+/* Footer */
+
+.ftr {
+    background-color: rgb(35, 35, 44);
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.ftr .row{
+    margin: auto;
+    padding-top: 30px;
+}
+
+.ftr p {
+    text-align: center ;
+}
+
+.ftr .material-icons-outlined{
+    font-size: 30px;
+}
+
+.ftr ul{
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+
+.ftr li{
+    padding-bottom: 7px;
+}
+
+.ftr a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ftr a:hover{
+    text-decoration: none;
+    color: #ff9100;
+}
+
+.ftr .hov:hover{
+    color: #ff9100;
+}
+
+.fa{
+    padding: 5px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+.fa-facebook{
+    background-color: rgb(66, 103, 178);
+}
+
+.fa-instagram{
+    background-image: linear-gradient(rgb(25, 0, 255), rgb(128, 0, 128), rgb(255, 255, 0));
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.fa-youtube {
+    background-color: red;
+}
+
+.fa-linkedin {
+    background-color: #0072b1;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.contact h5 {
+    color: #fff;
+    padding-top:  20px;
+}
+
+.contact {
+    background-image: linear-gradient(rgba(50, 32, 51, 0.788),rgba(60, 32, 61, 0.788)), url("../../resourse/image/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.contact .col-sm-4 {
+    padding-top: 60px;
+    color: #fff;    
+}
+
+input {
+    width: 100%;
+}
+
+.contact .hov {
+    padding-top: 60px;
+}
+
+.contact span {
+    font-size: 40px;
+    border-radius: 2px gray solid;
+}
